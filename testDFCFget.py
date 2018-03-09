@@ -11,4 +11,4 @@ res_data = urllib2.urlopen(req)
 # 解析请求结果数据
 res = res_data.read()
 # 打印请求结果
-print res
+print '123456789'

@@ -12,3 +12,5 @@ res_data = urllib2.urlopen(req)
 res = res_data.read()
 # 打印请求结果
 print '123456789'
+for i in range(1,10):
+	print i

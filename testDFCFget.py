@@ -11,6 +11,5 @@ res_data = urllib2.urlopen(req)
 # 解析请求结果数据
 res = res_data.read()
 # 打印请求结果
-print '123456789'
 for i in range(1,10):
-	print i
+        print "第" + str(i) + "次:" + res
